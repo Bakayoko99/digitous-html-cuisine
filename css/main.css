@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Oswald; 
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Courgette; 
+    src: url('../fonts/Courgette-Regular.ttf');
+}
+
+body{
+    font-family: Oswald;
+}
+
+.backgroundimg{
+    font-family: Courgette;
+}
