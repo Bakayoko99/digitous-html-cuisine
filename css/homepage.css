@@ -7,9 +7,10 @@ header{
 
 #headerrow{
     background: rgb(0, 0, 0, 0.637);
+
 }
 nav{
-    border-bottom: 3px solid;
+    border-bottom: 3px solid rgb(73, 72, 72, 80%);
 }
 
 .backgroundimg{
@@ -22,13 +23,21 @@ div .col-4.offset-4{
     text-align: center;
 }
 
+#cuizinehead img{
+    width: 50px;
+}
+
+#cuizinehead{
+    margin-bottom: 120px;
+}
+
 h3{
     margin-bottom: 0px;
 }
 
 #articlesimg img{
     height: 100px;
-    width: 150px;
+    width: 180px;
     margin-bottom: 1rem;
 }
 
