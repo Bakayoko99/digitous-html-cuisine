@@ -11,8 +11,8 @@
 
 <body>
     <div class="backgroundimg">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background: rgb(0, 0, 0, 0.637);">
-            <a class="navbar-brand text-white ps-1" href="#">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: #000000d1;">
+            <a class="navbar-brand text-white ps-3" href="#">
                 <h2>Cui'zine</h2>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -25,13 +25,13 @@
                         <a class="nav-link text-white" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Equipe</a>
+                        <a class="nav-link text-secondary" href="#">Equipe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Blog</a>
+                        <a class="nav-link text-secondary" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-secondary" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -50,96 +50,157 @@
             </div>
         </header>
     </div>
-    <section>
-        <div class="container">
-            <div class="row pt-5 pb-4">
-                <div class="col-4 offset-4">
-                    <h2>Derniers articles</h2>
-                </div>
-            </div>
-            <div class="row" id="articlesimg">
-                <div class="col-2">
-                    <img src="./img/articles/suzette/suzette-small.jpg">
-                </div>
-                <div class="col-8">
-                    <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                    <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à
-                        Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées
-                        au froment ou au sarrazin!</p>
-                </div>
-                <div class="col-2">
-                    <p>Recherche</p>
-                    <input class="form-control" type="text" placeholder="Recherche...">
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-outline-dark" type="button">Ok</button>
+    <main class="container-lg section-articles my-5">
+
+        <h2 class="text-center display-4 mb-5">Derniers articles</h2>
+
+        <div class="row">
+
+            <div class="col-12 col-lg-10">
+
+                <article class="row mb-3">
+
+                    <div class="col-12 col-md-4 mb-3">
+
+                        <img class="img-fluid" src="./img/articles/suzette/suzette-small.jpg" alt="Chez suzette">
+
                     </div>
-                </div>
-            </div>
-            <div class="row" id="articlesimg">
-                <div class="col-2">
-                    <img src="./img/articles/metro/metro-small.jpg">
-                </div>
-                <div class="col-8">
-                    <h3>Le Métro dessert</h3>
-                    <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de
-                        réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir
-                        absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son
-                        avis</p>
-                </div>
-                <div class="col-2">
-                    <p>Newsletter</p>
-                    <input class="form-control" type="text" placeholder="Email...">
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-outline-dark" type="button">S'inscrire</button>
+
+                    <div class="col-12 col-md-8">
+
+                        <h2 class="">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h2>
+                        <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant
+                            à Paris
+                            dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au
+                            froment
+                            ou au sarrazin!</p>
+
                     </div>
+
+                </article>
+
+                <article class="row mb-3">
+
+                    <div class="col-12 col-md-4 mb-3">
+
+                        <img class="img-fluid" src="./img/articles/metro/metro-small.jpg" alt="Chez suzette">
+
+                    </div>
+
+                    <div class="col-12 col-md-8">
+
+                        <h2 class="">Le Métro dessert</h2>
+                        <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé
+                            de
+                            réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir
+                            absolument,
+                            mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="row mb-3">
+
+                    <div class="col-12 col-md-4 mb-3">
+
+                        <img class="img-fluid" src="./img/articles/vitaly/vitaly-small.jpg" alt="Chez suzette">
+
+                    </div>
+
+                    <div class="col-12 col-md-8">
+
+                        <h2 class="">Vitaly, le végan italien</h2>
+                        <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
+                            l'Italie
+                            à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
+
+                    </div>
+
+                </article>
+
+                <div class="row">
+
+                    <div class="col-6" id="precedents-art">
+
+                        <a href="#">&laquo; Voir les articles précédents</a>
+
+                    </div>
+
                 </div>
+
             </div>
-            <div class="row" id="articlesimg">
-                <div class="col-2">
-                    <img src="./img/articles/vitaly/vitaly-small.jpg">
+
+            <aside class="col-lg-2 d-none d-lg-block">
+
+                <div id="button1">
+
+                    <h6>Recherche</h6>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Recherche">
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-outline-dark">Ok</button>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-8">
-                    <h3>Vitaly, le végan italien</h3>
-                    <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
-                        l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
+
+                <div id="button2">
+
+                    <h6>Newsletter</h6>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Recherche">
+                        <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+                    </div>
+
                 </div>
-                <div class="col-2">
-                    <p>Partager</p>
-                </div>
-            </div>
-            <div class="row pb-4" id="">
-                <div class="col-3">
-                    <p><a href="#">&laquo;Voir les articles précedent</a></p>
-                </div>
-            </div>
+
+                <h6>Partager</h6>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
+
+            </aside>
+
         </div>
-    </section>
+
+    </main>
     <footer class="bg-dark text-white">
-        <div class="container">
+        <div class="container" id="footer-as">
             <div class="row">
                 <div class="col-4">
                     <h3>Catégories</h3>
                     <ul>
-                        <li><a href="#">Revues</a></li>
-                        <li><a href="#">Recettes</a></li>
-                        <li><a href="#">Découvertes</a></li>
+                        <li><a href="#" class="link-light">Revues</a></li>
+                        <li><a href="#" class="link-light">Recettes</a></li>
+                        <li><a href="#" class="link-light">Découvertes</a></li>
                     </ul>
                 </div>
                 <div class="col-4">
                     <h3>Archives</h3>
                     <ul>
-                        <li><a href="#">2019</a></li>
-                        <li><a href="#">2018</a></li>
-                        <li><a href="#">2017</a></li>
+                        <li><a href="#" class="link-light">2019</a></li>
+                        <li><a href="#" class="link-light">2018</a></li>
+                        <li><a href="#" class="link-light">2017</a></li>
                     </ul>
                 </div>
                 <div class="col-4">
                     <p>Newsletter</p>
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email..." aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-                      </div>
+                        <input type="email" class="form-control" placeholder="Email..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-light" type="button" id="button-addon2">Button</button>
+                    </div>
+                    <h6>Partager</h6>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-twitter"></i>
+
                 </div>
+
 
             </div>
         </div>

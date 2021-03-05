@@ -6,11 +6,11 @@ header{
 }
 
 #headerrow{
-    background: rgb(0, 0, 0, 0.637);
+    background: #000000d1;
 
 }
 nav{
-    border-bottom: 3px solid rgb(73, 72, 72, 80%);
+    border-bottom: 2px solid rgb(73, 72, 72, 80%);
 }
 
 .backgroundimg{
@@ -41,4 +41,21 @@ h3{
     margin-bottom: 1rem;
 }
 
+#footer-as ul{
+    list-style-type: none;
+}
 
+#precedents-art a{
+    color: black;
+    text-decoration: none;
+}
+
+#button1 button{
+    padding-right: 132px;
+    border: solid;
+}
+
+#button2 button{
+    padding-right: 89px;
+    border: solid;
+}
