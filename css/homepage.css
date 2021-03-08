@@ -1,38 +1,7 @@
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-}
-
-#headerrow{
-    background: #000000d1;
-
-}
-nav{
-    border-bottom: 2px solid rgb(73, 72, 72, 80%);
-}
-
 .backgroundimg{
     background-image: url(../img/header.jpg);
     background-position: center;
     color: white;
-}
-
-div .col-4.offset-4{
-    text-align: center;
-}
-
-#cuizinehead img{
-    width: 50px;
-}
-
-#cuizinehead{
-    margin-bottom: 120px;
-}
-
-h3{
-    margin-bottom: 0px;
 }
 
 #articlesimg img{
